@@ -24,3 +24,5 @@ Default Welcome Page edited
 1. Theme name added
 2. Author name added
 3. Date and time added on welcome page
+
+---------------------------------------------------------------------------------------------------
