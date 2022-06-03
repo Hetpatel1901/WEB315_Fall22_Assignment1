@@ -18,6 +18,6 @@ namespace RazorPagesMobiles.Models
 
         public string Network { get; set; }
 
-        public int Displaysize { get; set; }
+        public decimal Displaysize { get; set; }
     }
 }
