@@ -53,3 +53,14 @@ Database and Migration added from this command
 1. dotnet ef migrations add InitialCreate
 2. dotnet ef database update
 
+---------------------------------------------------------------------------------------------------
+
+Added link to Mobile on Top navigation bar
+
+    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-page="/Mobiles/Index"> Mobiles</a>
+    </li>
+
+---------------------------------------------------------------------------------------------------
+
+
