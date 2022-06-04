@@ -1,19 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using MyMobileList.Data;
+//using MyMobileList.Data;
 using System;
 using System.Linq;
+using RazorPagesMobiles.Models;
 
-namespace RazorPagesMobiles.Models
+namespace MyMobileList.Models
 {
     public static class SeedData
 
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-             using (var context = new RazorPagesMobilesContext(
+             using (var context = new MyMobileListContext(
                 serviceProvider.GetRequiredService<
-                    DbContextOptions<RazorPagesMobilesContext>>()))
+                    DbContextOptions<MyMobileListContext>>()))
 
                     {
                         // Look for any mobiles.
@@ -24,7 +25,7 @@ namespace RazorPagesMobiles.Models
                         }
                          context.Mobiles.AddRange(
 
-                        new Mobiles
+                        new Mobilephones
                     {
                         Brand = "Apple",
                         Model= "iPhone 12",
@@ -34,7 +35,7 @@ namespace RazorPagesMobiles.Models
                         Displaysize= 6.10
                     },
 
-                     new Mobiles
+                     new Mobilephones
                     {
                         Brand = "Samsung",
                         Model= "S22",
@@ -44,7 +45,7 @@ namespace RazorPagesMobiles.Models
                         Displaysize= 6.50
                     },
 
-                     new Mobiles
+                     new Mobilephones
                     {
                         Brand = "Nokia",
                         Model= "Nokia 3310",
@@ -54,7 +55,7 @@ namespace RazorPagesMobiles.Models
                         Displaysize= 1.50
                     },
 
-                     new Mobiles
+                     new Mobilephones
                     {
                         Brand = "Oneplus",
                         Model= "Oneplus 9",
@@ -64,7 +65,7 @@ namespace RazorPagesMobiles.Models
                         Displaysize= 6.55
                     },
 
-                     new Mobiles
+                     new Mobilephones
                     {
                         Brand = "LG",
                         Model= "LG Wing",
@@ -74,7 +75,7 @@ namespace RazorPagesMobiles.Models
                         Displaysize= 6.80
                     },
 
-                     new Mobiles
+                     new Mobilephones
                     {
                         Brand = "ASUS",
                         Model= "ROG phone 5",
