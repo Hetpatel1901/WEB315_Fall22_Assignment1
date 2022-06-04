@@ -18,12 +18,12 @@ namespace MyMobileList.Models
 
                     {
                         // Look for any mobiles.
-                        if (context.Mobiles.Any())
+                        if (context.Mobilephones.Any())
 
                         {
                             return;   // DB has been seeded
                         }
-                         context.Mobiles.AddRange(
+                         context.Mobilephones.AddRange(
 
                         new Mobilephones
                     {
@@ -32,7 +32,7 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2020-10-23"),
                         Price = 800,
                         Network= "5G",
-                        Displaysize= 6.10
+                        Displaysize= 6.10M
                     },
 
                      new Mobilephones
@@ -42,7 +42,7 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2022-02-24"),
                         Price = 1500,
                         Network= "5G",
-                        Displaysize= 6.50
+                        Displaysize= 6.50M
                     },
 
                      new Mobilephones
@@ -52,7 +52,7 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2000-09-01"),
                         Price = 55,
                         Network= "3G",
-                        Displaysize= 1.50
+                        Displaysize= 1.50M
                     },
 
                      new Mobilephones
@@ -62,7 +62,7 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2021-03-23"),
                         Price = 1070,
                         Network= "5G",
-                        Displaysize= 6.55
+                        Displaysize= 6.55M
                     },
 
                      new Mobilephones
@@ -72,7 +72,7 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2020-10-25"),
                         Price = 1295,
                         Network= "5G",
-                        Displaysize= 6.80
+                        Displaysize= 6.80M
                     },
 
                      new Mobilephones
@@ -82,7 +82,7 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2021-04-26"),
                         Price = 730,
                         Network= "5G",
-                        Displaysize= 6.78
+                        Displaysize= 6.78M
                     }
 
                     );
