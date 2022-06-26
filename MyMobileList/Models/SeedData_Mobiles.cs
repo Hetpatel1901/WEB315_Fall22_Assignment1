@@ -32,7 +32,9 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2020-10-23"),
                         Price = 800,
                         Network= "5G",
-                        Displaysize= 6.10M
+                        Displaysize= 6.10M,
+                        Users= 1000,
+                        Color= White
                     },
 
                      new Mobilephones
@@ -42,7 +44,9 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2022-02-24"),
                         Price = 1500,
                         Network= "5G",
-                        Displaysize= 6.50M
+                        Displaysize= 6.50M,
+                        Users= 900,
+                        Color= Red
                     },
 
                      new Mobilephones
@@ -52,7 +56,9 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2000-09-01"),
                         Price = 55,
                         Network= "3G",
-                        Displaysize= 1.50M
+                        Displaysize= 1.50M,
+                        Users= 800,
+                        Color= Blue
                     },
 
                      new Mobilephones
@@ -62,7 +68,9 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2021-03-23"),
                         Price = 1070,
                         Network= "5G",
-                        Displaysize= 6.55M
+                        Displaysize= 6.55M,
+                        Users= 700,
+                        Color= Black
                     },
 
                      new Mobilephones
@@ -72,7 +80,9 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2020-10-25"),
                         Price = 1295,
                         Network= "5G",
-                        Displaysize= 6.80M
+                        Displaysize= 6.80M,
+                        Users= 600,
+                        Color= Yellow
                     },
 
                      new Mobilephones
@@ -82,7 +92,9 @@ namespace MyMobileList.Models
                         Year = DateTime.Parse("2021-04-26"),
                         Price = 730,
                         Network= "5G",
-                        Displaysize= 6.78M
+                        Displaysize= 6.78M,
+                        Users= 500,
+                        Color= Green
                     }
 
                     );
