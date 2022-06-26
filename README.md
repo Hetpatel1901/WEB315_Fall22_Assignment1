@@ -69,3 +69,24 @@ Seed Data added in Models files
 
 Program run succesfully.
 
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+Assignment 2 Readme Text
+# WEB315_Fall22_Assignment2
+ Mobiles Webapp
+
+Name: Het Patel
+Student I'd: 0805024
+Date: 25/06/2022
+
+---------------------------------------------------------------------------------------------------
+1. Created new branch inside the assignment1 repositery.
+2. New properties added to Model file.
+3. Crud pages updated and value added in headers of all page.
+4. New values added in seed data and updated.
+5. Migration command added.
+   dotnet ef migrations add Users
+   dotnet ef migrations add Color
+
+   dotnet ef database update
+6. 
