@@ -44,6 +44,16 @@
                 <span asp-validation-for="Mobilephones.Displaysize" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Mobilephones.Users" class="control-label"></label>
+                <input asp-for="Mobilephones.Users" class="form-control" />
+                <span asp-validation-for="Mobilephones.Users" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mobilephones.Color" class="control-label"></label>
+                <input asp-for="Mobilephones.Color" class="form-control" />
+                <span asp-validation-for="Mobilephones.Color" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>

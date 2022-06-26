@@ -9,3 +9,4 @@ Date: 25/06/2022
 Created new branch inside the assignment1 repositery.
 
 1. New properties added to Model file.
+2. Crud pages updated and value added in headers of all page.
