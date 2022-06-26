@@ -1,5 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace RazorPagesMobiles.Models
 {
@@ -11,7 +13,6 @@ namespace RazorPagesMobiles.Models
 
         public string Model { get; set; }
 
-        [DataType(DataType.Date)]
         public DateTime Year { get; set; }
 
         public decimal Price { get; set; }
