@@ -34,7 +34,7 @@ namespace MyMobileList.Models
                         Network= "5G",
                         Displaysize= 6.10M,
                         Users= 1000,
-                        Color= White
+                        Color= "White"
                     },
 
                      new Mobilephones
@@ -46,7 +46,7 @@ namespace MyMobileList.Models
                         Network= "5G",
                         Displaysize= 6.50M,
                         Users= 900,
-                        Color= Red
+                        Color= "Red"
                     },
 
                      new Mobilephones
@@ -58,7 +58,7 @@ namespace MyMobileList.Models
                         Network= "3G",
                         Displaysize= 1.50M,
                         Users= 800,
-                        Color= Blue
+                        Color= "Blue"
                     },
 
                      new Mobilephones
@@ -70,7 +70,7 @@ namespace MyMobileList.Models
                         Network= "5G",
                         Displaysize= 6.55M,
                         Users= 700,
-                        Color= Black
+                        Color= "Black"
                     },
 
                      new Mobilephones
@@ -82,7 +82,7 @@ namespace MyMobileList.Models
                         Network= "5G",
                         Displaysize= 6.80M,
                         Users= 600,
-                        Color= Yellow
+                        Color= "Yellow"
                     },
 
                      new Mobilephones
@@ -94,7 +94,7 @@ namespace MyMobileList.Models
                         Network= "5G",
                         Displaysize= 6.78M,
                         Users= 500,
-                        Color= Green
+                        Color= "Green"
                     }
 
                     );
