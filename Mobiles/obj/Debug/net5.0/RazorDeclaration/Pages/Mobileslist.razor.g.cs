@@ -82,7 +82,7 @@ using Mobiles.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Mobileslist")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/mobileslist")]
     public partial class Mobileslist : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -92,16 +92,16 @@ using Mobiles.Shared;
         #pragma warning restore 1998
 #nullable restore
 #line 26 "C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\Pages\Mobileslist.razor"
-      
+       
     public int arrayList = 0;
-    public string[] Mobilelist = {};
+    public string[] mobilesList = {};
     private void DisplayArrayList()
     {
-        Mobilelist = Mobilelist.Concat(new [] {"iPhone", "Samsung", "Oneplus", "Nokia", "Xiaomi"}).ToArray();
+        mobilesList = mobilesList.Concat(new [] {"iPhone", "Oneplus", "Samsung", "Nokia", "Xiaomi"}).ToArray();
     }
 
     private int newArrayList = 0;
-    public int inputvalues = 5;
+    public int inputvalue = 5;
     private void onchangeinput(int num)
     {
         newArrayList = num;

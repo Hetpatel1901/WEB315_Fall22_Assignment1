@@ -1,38 +1,38 @@
-@page "/Mobileslist"
+@page "/mobileslist"
 
-<h2><b><u>Mobiles list </u></b></h2>
+<h2><b><u>Mobiles List</u></b></h2>
 
-<button class="btn btn-success" @onclick = "DisplayArrayList">Display Mobile List</button>
+<button class="btn btn-success" @onclick = "DisplayArrayList"> Display Mobiles List</button>
+<br/><br/>
 
-@for (int i = 0; i < Mobilelist.Length; i++)
-
+@for (int i = 0; i < mobilesList.Length; i++)
 {
-    <p><strong> @Mobilelist[i] </strong></p>
+    <p><strong> @mobilesList[i] </strong></p>
 }
 
 <label>
-Input Value for Display:
-   <input value=@inputvalue type="number" @onchange="@(e => onchangeinput(Int32.Parse(e.Value.ToString())))"> 
+    Input Value for Display: 
+    <input value=@inputvalue type="number" @onchange="@(e => onchangeinput(Int32.Parse(e.Value.ToString())))">
 </label>
 
 @for (int i=0; i<newArrayList; i++)
 {
     if (i>=0 && i<5)
     {
-        <p><b>@Mobilelist[i]</b></p>
-    }
+        <p><b> @mobilesList[i]</b></p>
+    }  
 }
 
-@code{
+@code {
     public int arrayList = 0;
-    public string[] Mobilelist = {};
+    public string[] mobilesList = {};
     private void DisplayArrayList()
     {
-        Mobilelist = Mobilelist.Concat(new [] {"iPhone", "Samsung", "Oneplus", "Nokia", "Xiaomi"}).ToArray();
+        mobilesList = mobilesList.Concat(new [] {"iPhone", "Oneplus", "Samsung", "Nokia", "Xiaomi"}).ToArray();
     }
 
     private int newArrayList = 0;
-    public int inputvalues = 5;
+    public int inputvalue = 5;
     private void onchangeinput(int num)
     {
         newArrayList = num;
