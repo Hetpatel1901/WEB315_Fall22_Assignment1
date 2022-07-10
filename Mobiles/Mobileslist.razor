@@ -4,10 +4,10 @@
 
 <button class="btn btn-success" @onclick = "DisplAyarrayList">Display Mobile List</button>
 
-@for (int i = 0; i < Mobileslist.Length; i++)
+@for (int i = 0; i < Mobilelist.Length; i++)
 
 {
-    <p><strong>@Mobileslist[i]</strong></p>
+    <p><strong>@Mobilelist[i]</strong></p>
 }
 
 <label>
@@ -19,16 +19,16 @@ Input Value for Display:
 {
     if (i>0 && i<5)
     {
-        <p><b>@MobilesList[i]</b></p>
+        <p><b>@MobileList[i]</b></p>
     }
 }
 
 @code{
     public int arrayList = 0;
-    public string[] MobilesList = {};
+    public string[] MobileList = {};
     private void DisplayArrayList()
     {
-        MobilesList = MobilesList.Concat(new [] {"iPhone", "Samsung", "Oneplus", "Nokia", "Xiaomi"}).ToArray();
+        MobileList = MobileList.Concat(new [] {"iPhone", "Samsung", "Oneplus", "Nokia", "Xiaomi"}).ToArray();
     }
 
     private int newArrayList = 0;
