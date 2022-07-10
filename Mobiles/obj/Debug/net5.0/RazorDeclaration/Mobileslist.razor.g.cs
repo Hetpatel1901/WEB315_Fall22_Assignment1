@@ -94,10 +94,10 @@ using Mobiles.Shared;
 #line 26 "C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\Mobileslist.razor"
       
     public int arrayList = 0;
-    public string[] MobileList = {};
+    public string[] Mobilelist = {};
     private void DisplayArrayList()
     {
-        MobileList = MobileList.Concat(new [] {"iPhone", "Samsung", "Oneplus", "Nokia", "Xiaomi"}).ToArray();
+        Mobilelist = Mobilelist.Concat(new [] {"iPhone", "Samsung", "Oneplus", "Nokia", "Xiaomi"}).ToArray();
     }
 
     private int newArrayList = 0;

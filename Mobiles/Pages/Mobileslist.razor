@@ -1,0 +1,40 @@
+@page "/Mobileslist"
+
+<h2><b><u>Mobiles list </u></b></h2>
+
+<button class="btn btn-success" @onclick = "DisplayArrayList">Display Mobile List</button>
+
+@for (int i = 0; i < Mobilelist.Length; i++)
+
+{
+    <p><strong> @Mobilelist[i] </strong></p>
+}
+
+<label>
+Input Value for Display:
+   <input value=@inputvalue type="number" @onchange="@(e => onchangeinput(Int32.Parse(e.Value.ToString())))"> 
+</label>
+
+@for (int i=0; i<newArrayList; i++)
+{
+    if (i>=0 && i<5)
+    {
+        <p><b>@Mobilelist[i]</b></p>
+    }
+}
+
+@code{
+    public int arrayList = 0;
+    public string[] Mobilelist = {};
+    private void DisplayArrayList()
+    {
+        Mobilelist = Mobilelist.Concat(new [] {"iPhone", "Samsung", "Oneplus", "Nokia", "Xiaomi"}).ToArray();
+    }
+
+    private int newArrayList = 0;
+    public int inputvalues = 5;
+    private void onchangeinput(int num)
+    {
+        newArrayList = num;
+    }
+}
