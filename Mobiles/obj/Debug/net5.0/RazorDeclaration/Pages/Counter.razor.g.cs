@@ -95,9 +95,18 @@ using Mobiles.Shared;
        
     private int currentCount = 0;
 
+  [Parameter]
+    public int IncrementAmount { get; set; } = 2;
+
     private void IncrementCount()
     {
-        currentCount++;
+        currentCount += IncrementAmount;
+
+        if(currentCount >= 15)
+        {
+            currentCount = 0;
+        }
+
     }
 
 #line default
