@@ -56,7 +56,5 @@ C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO AS
 C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\obj\Debug\net5.0\Mobiles.pdb
 C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\obj\Debug\net5.0\Mobiles.genruntimeconfig.cache
 C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\obj\Debug\net5.0\Mobiles.csproj.CopyComplete
-C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\obj\Debug\net5.0\RazorDeclaration\Mobileslist.razor.g.cs
-C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\obj\Debug\net5.0\Razor\Mobileslist.razor.g.cs
 C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\obj\Debug\net5.0\RazorDeclaration\Pages\Mobileslist.razor.g.cs
 C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\obj\Debug\net5.0\Razor\Pages\Mobileslist.razor.g.cs
