@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Mobiles
+build_property.ProjectDir = C:\Users\Het\OneDrive - St. Clair College\SEMESTER 2\WEB 315 (INTRODUCTION TO ASP.NET)\WEB315_Fall22_Assignment1\Mobiles\
