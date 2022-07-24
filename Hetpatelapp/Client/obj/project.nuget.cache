@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "36AkpDQuFrye5f6JFQ2cDLwN8AU+0hqlwpO2kc55Heny6qg/6iTgB9Wi/qDNfS9ebrG29GkR+TAaPI+bbwn9QQ==",
+  "dgSpecHash": "Cc13OepMKRV5LNt6H+nm5nQjUI7XEhS/B3gO1r1AbeU49aYI9cXrxhHeJJIk8kxC6b3BXKsE0RpsFGI5gjdImg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Client\\Hetpatelapp.Client.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,15 @@
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.components.web\\5.0.13\\microsoft.aspnetcore.components.web.5.0.13.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\5.0.13\\microsoft.aspnetcore.components.webassembly.5.0.13.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\5.0.13\\microsoft.aspnetcore.components.webassembly.devserver.5.0.13.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\5.0.17\\microsoft.aspnetcore.connections.abstractions.5.0.17.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\5.0.17\\microsoft.aspnetcore.http.connections.client.5.0.17.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\5.0.17\\microsoft.aspnetcore.http.connections.common.5.0.17.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.13\\microsoft.aspnetcore.metadata.5.0.13.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\5.0.17\\microsoft.aspnetcore.signalr.client.5.0.17.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\5.0.17\\microsoft.aspnetcore.signalr.client.core.5.0.17.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\5.0.17\\microsoft.aspnetcore.signalr.common.5.0.17.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\5.0.17\\microsoft.aspnetcore.signalr.protocols.json.5.0.17.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
@@ -25,11 +33,12 @@
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\Het\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.jsinterop\\5.0.13\\microsoft.jsinterop.5.0.13.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.13\\microsoft.jsinterop.webassembly.5.0.13.nupkg.sha512",
-    "C:\\Users\\Het\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\Het\\.nuget\\packages\\system.threading.channels\\5.0.0\\system.threading.channels.5.0.0.nupkg.sha512",
     "C:\\Users\\Het\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.13\\microsoft.netcore.app.runtime.browser-wasm.5.0.13.nupkg.sha512"
   ],
   "logs": []
