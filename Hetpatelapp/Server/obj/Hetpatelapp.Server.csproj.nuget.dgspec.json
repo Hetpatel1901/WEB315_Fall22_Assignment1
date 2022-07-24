@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Server\\Hetpatelapp.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Client\\Hetpatelapp.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Client\\Hetpatelapp.Client.csproj",
+        "projectName": "Hetpatelapp.Client",
+        "projectPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Client\\Hetpatelapp.Client.csproj",
+        "packagesPath": "C:\\Users\\Het\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Het\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Shared\\Hetpatelapp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Shared\\Hetpatelapp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Server\\Hetpatelapp.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Server\\Hetpatelapp.Server.csproj",
+        "projectName": "Hetpatelapp.Server",
+        "projectPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Server\\Hetpatelapp.Server.csproj",
+        "packagesPath": "C:\\Users\\Het\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Het\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Client\\Hetpatelapp.Client.csproj": {
+                "projectPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Client\\Hetpatelapp.Client.csproj"
+              },
+              "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Shared\\Hetpatelapp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Shared\\Hetpatelapp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Shared\\Hetpatelapp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Shared\\Hetpatelapp.Shared.csproj",
+        "projectName": "Hetpatelapp.Shared",
+        "projectPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Shared\\Hetpatelapp.Shared.csproj",
+        "packagesPath": "C:\\Users\\Het\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Het\\OneDrive - St. Clair College\\SEMESTER 2\\WEB 315 (INTRODUCTION TO ASP.NET)\\WEB315_Fall22_Assignment1\\Hetpatelapp\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Het\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
